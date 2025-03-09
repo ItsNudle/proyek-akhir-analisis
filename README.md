@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# Air Quality Data : Kota Huairou
 
 ## Setup Environment - Anaconda
 ```
