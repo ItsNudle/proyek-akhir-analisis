@@ -31,7 +31,7 @@ st.title("Air Quality Data : Kota Huairou")
 
 st.header("Tingkat Polusi Udara")
 
-df_huairou = pd.read_csv("main_data.csv")
+df_huairou = pd.read_csv("dashboard/main_data.csv")
 df_huairou["datetime"] = pd.to_datetime(df_huairou[["year", "month", "day", "hour"]])
 df_huairou.sort_values(by='datetime', inplace=True)
 df_huairou.reset_index(drop=True, inplace=True)
